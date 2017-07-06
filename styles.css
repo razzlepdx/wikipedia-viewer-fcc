@@ -1,0 +1,98 @@
+.wrapper{
+	min-height: 100%;
+	margin-bottom: -100px; 
+}
+
+#interact {
+	border-left: 2px solid #6354ad;
+	border-right: 2px solid #6354ad;
+	min-width: 320px;
+	max-width: 480px;
+	width:50%;
+	margin-top: 15%;
+}
+#interact p, #interact h5, #interact input {
+	/*display:block;*/
+	margin: 4% auto;
+	text-align: center;
+}
+.random, #ma-glass a {
+	text-decoration: none;
+}
+.hide {
+	display:none;
+}
+#search-term {
+	border: 2px solid #6354ad;
+}
+input#search-term {
+	margin-top: 10%;
+	height: 30px;
+}
+input:focus {
+	outline-color: light gray;
+}
+#searchbar {
+	height:120px;
+}
+#display {
+	background-color: white;
+	margin-top: 15%;
+}
+h4#instructions {
+	margin-top:0;
+	margin-bottom:10%;
+}
+div#results div {
+	height:7.5%;
+	
+	border-top:1px solid #6354ad;
+	
+	margin-top: 2%;
+
+}
+.result {
+	margin-left:5%;
+	width:95%;
+}
+div.result div a {
+	padding:5px;
+	
+	text-decoration: none;
+	background: white;
+	border:2px solid #6354ad;
+
+}
+.result h5 {
+	border-top: 1px solid #6354ad;
+}
+div a:hover {
+	font-style: italic;
+	text-decoration: none;
+}
+.footer {
+	height: 70px;
+	border-top:2px solid #6354ad;
+}
+footer p {
+
+	line-height: 1;
+	margin-top: 10px;
+	margin-bottom:0;
+	font-size: 0.9em;
+}
+.flaticon-open-book {
+	color:#6354ad;
+	background: white;
+	font-size: 3rem;
+}
+.flaticon-loupe {
+	font-size:20px;
+}
+main {
+	margin: 0;
+}
+#attrib {
+	margin-top: 2%;
+	font-size: 0.8em;
+}
